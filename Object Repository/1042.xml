@@ -1,0 +1,159 @@
+<OR>
+  <uid>//label[contains(text(),"Email Address")]/following-sibling::input[1]</uid>
+  <pwd>//label[contains(text(),"Password")]/following-sibling::input[1]</pwd>
+  <incomplete>//*[@id="inprogressRetCntDiv"]</incomplete>
+  <signin>//span[@class="v-btn__content" and contains(text(),"Sign In")]</signin>
+  <start>//span[@class="v-btn__content" and contains(text(),"Start New")]</start>
+  <home>//span[@class="TBS-home-icon fs-6 position-relative t-3px"]</home>
+  <form>//div[@class="v-list-item__title cursor-pointer" and text()="Form"]</form>
+  <startnew>(//span[@class='v-btn__overlay'])[25]</startnew>
+  <choose1042A>//div[contains(text(),'Form 1042 Amendment')]</choose1042A>
+  <amdreason>(//textarea[@class='v-field__input'])[2]</amdreason>
+  <Chapter3SC>//div[@class="v-list-item__title" and contains(text(),"02 U.S. Withholding Agent  Other")]</Chapter3SC>
+  <WithholdingAgentName>(//label[@class="v-label v-field-label"])[1]/following-sibling::input</WithholdingAgentName>
+  <OWithholdingAgentEIN>(//label[@class="v-label v-field-label"])[2]/following-sibling::input</OWithholdingAgentEIN>
+  <EIN>(//label[@class="v-label v-label--clickable"])[1]</EIN>
+  <QI-EIN>(//label[@class="v-label v-label--clickable"])[2]</QI-EIN>
+  <WP-EIN>(//label[@class="v-label v-label--clickable"])[3]</WP-EIN>
+  <WT-EIN>(//label[@class="v-label v-label--clickable"])[4]</WT-EIN>
+  <NQI-EIN>(//label[@class="v-label v-label--clickable"])[5]</NQI-EIN>
+  <IsForeignAddr>(//label[@class="v-label v-label--clickable"])[6]</IsForeignAddr>
+  <WHAddress1>(//label[@class="v-label v-field-label"])[3]/following-sibling::input</WHAddress1>
+  <WHAddress2>(//label[@class="v-label v-field-label"])[4]/following-sibling::input</WHAddress2>
+  <WHCity>(//label[@class="v-label v-field-label"])[5]/following-sibling::input</WHCity>
+  <WHState>(//div[@class="v-field__input"])[1]</WHState>
+  <WHCountry>(//div[@class="v-field__input"])[1]</WHCountry>
+  <WHZipCode>(//label[@class="v-label v-field-label"])[7]/following-sibling::input</WHZipCode>
+  <WHPostalCode>(//label[@class="v-label v-field-label"])[8]/following-sibling::input</WHPostalCode>
+  <WHContactName>(//label[@class="v-label v-field-label"])[8]/following-sibling::input</WHContactName>
+  <WHEmail>(//label[@class="v-label v-field-label"])[9]/following-sibling::input</WHEmail>
+  <WHPhone>(//label[@class="v-label v-field-label"])[10]/following-sibling::input</WHPhone>
+  <WHFax>(//label[@class="v-label v-field-label"])[11]/following-sibling::input</WHFax>
+  <WHSignatoryName>(//label[@class="v-label v-field-label"])[12]/following-sibling::input</WHSignatoryName>
+  <WHTitle>(//label[@class="v-label v-field-label"])[13]/following-sibling::input</WHTitle>
+  <WHDaytimePhone>(//label[@class="v-label v-field-label"])[14]/following-sibling::input</WHDaytimePhone>
+  <WHContactNameF>(//label[@class="v-label v-field-label"])[9]/following-sibling::input</WHContactNameF>
+  <WHEmailF>(//label[@class="v-label v-field-label"])[10]/following-sibling::input</WHEmailF>
+  <WHPhoneF>(//label[@class="v-label v-field-label"])[11]/following-sibling::input</WHPhoneF>
+  <WHFaxF>(//label[@class="v-label v-field-label"])[12]/following-sibling::input</WHFaxF>
+  <WHSignatoryNameF>(//label[@class="v-label v-field-label"])[13]/following-sibling::input</WHSignatoryNameF>
+  <WHTitleF>(//label[@class="v-label v-field-label"])[14]/following-sibling::input</WHTitleF>
+  <WHDaytimePhoneF>(//label[@class="v-label v-field-label"])[15]/following-sibling::input</WHDaytimePhoneF>
+  <btnsave>(//div[@class="d-flex justify-between align-center mt-4"]/div/button/span)[3]</btnsave>
+  <Jan07>(//td[contains(text(),"Jan.")])[1]/..//following-sibling::div/div[4]/label/following-sibling::input</Jan07>
+  <Jan15>(//tbody/tr/td[contains(text()," Jan. ")])[1]/../following-sibling::tr[1]/td[3]/div/div/div/div/label/following-sibling::input</Jan15>
+  <Jan22>(//tbody/tr/td[contains(text()," Jan. ")])[1]/../following-sibling::tr[2]/td[3]/div/div/div/div/label/following-sibling::input</Jan22>(//span[@class='v-btn__overlay'])[25]//div[contains(text(),'Form 1042 Amendment')]
+  <Jan31>(//tbody/tr/td[contains(text()," Jan. ")])[1]/../following-sibling::tr[3]/td[3]/div/div/div/div/label/following-sibling::input</Jan31>
+  <JanTotal>((//td[contains(text()," Jan. total ")])[1]/following-sibling::td/descendant::div)[12]/label/following-sibling::input</JanTotal>
+  <Feb07>(//td[contains(text(),"Feb.")])[1]/..//following-sibling::div/div[4]/label/following-sibling::input</Feb07>
+  <Feb15>(//tbody/tr/td[contains(text()," Feb. ")])[1]/../following-sibling::tr[1]/td[3]/div/div/div/div/label/following-sibling::input</Feb15>
+  <Feb22>(//tbody/tr/td[contains(text()," Feb. ")])[1]/../following-sibling::tr[2]/td[3]/div/div/div/div/label/following-sibling::input</Feb22>
+  <Feb28>(//tbody/tr/td[contains(text()," Feb. ")])[1]/../following-sibling::tr[3]/td[3]/div/div/div/div/label/following-sibling::input</Feb28>
+  <FebTotal>((//td[contains(text()," Feb. total ")])[1]/following-sibling::td/descendant::div)[12]/label/following-sibling::input</FebTotal>
+  <Mar07>(//td[contains(text(),"Mar.")])[1]/..//following-sibling::div/div[4]/label/following-sibling::input</Mar07>
+  <Mar15>(//tbody/tr/td[contains(text()," Mar. ")])[1]/../following-sibling::tr[1]/td[3]/div/div/div/div/label/following-sibling::input</Mar15>
+  <Mar22>(//tbody/tr/td[contains(text()," Mar. ")])[1]/../following-sibling::tr[2]/td[3]/div/div/div/div/label/following-sibling::input</Mar22>
+  <Mar31>(//tbody/tr/td[contains(text()," Mar. ")])[1]/../following-sibling::tr[3]/td[3]/div/div/div/div/label/following-sibling::input</Mar31>
+  <MarTotal>((//td[contains(text()," Mar. total ")])[1]/following-sibling::td/descendant::div)[12]/label/following-sibling::input</MarTotal>
+  <Apr07>(//td[contains(text(),"Apr.")])[1]/..//following-sibling::div/div[4]/label/following-sibling::input</Apr07>
+  <Apr15>(//tbody/tr/td[contains(text()," Apr. ")])[1]/../following-sibling::tr[1]/td[3]/div/div/div/div/label/following-sibling::input</Apr15>
+  <Apr22>(//tbody/tr/td[contains(text()," Apr. ")])[1]/../following-sibling::tr[2]/td[3]/div/div/div/div/label/following-sibling::input</Apr22>
+  <Apr30>(//tbody/tr/td[contains(text()," Apr. ")])[1]/../following-sibling::tr[3]/td[3]/div/div/div/div/label/following-sibling::input</Apr30>
+  <AprTotal>((//td[contains(text()," Apr. total ")])[1]/following-sibling::td/descendant::div)[12]/label/following-sibling::input</AprTotal>
+  <May07>(//td[contains(text(),"May")])[1]/..//following-sibling::div/div[4]/label/following-sibling::input</May07>
+  <May15>(//tbody/tr/td[contains(text()," May ")])[1]/../following-sibling::tr[1]/td[3]/div/div/div/div/label/following-sibling::input</May15>
+  <May22>(//tbody/tr/td[contains(text()," May ")])[1]/../following-sibling::tr[2]/td[3]/div/div/div/div/label/following-sibling::input</May22>
+  <May31>(//tbody/tr/td[contains(text()," May ")])[1]/../following-sibling::tr[3]/td[3]/div/div/div/div/label/following-sibling::input</May31>
+  <MayTotal>((//td[contains(text()," May total ")])[1]/following-sibling::td/descendant::div)[12]/label/following-sibling::input</MayTotal>
+  <June07>(//td[contains(text(),"June")])[1]/..//following-sibling::div/div[4]/label/following-sibling::input</June07>
+  <June15>(//tbody/tr/td[contains(text()," June ")])[1]/../following-sibling::tr[1]/td[3]/div/div/div/div/label/following-sibling::input</June15>
+  <June22>(//tbody/tr/td[contains(text()," June ")])[1]/../following-sibling::tr[2]/td[3]/div/div/div/div/label/following-sibling::input</June22>
+  <June30>(//tbody/tr/td[contains(text()," June ")])[1]/../following-sibling::tr[3]/td[3]/div/div/div/div/label/following-sibling::input</June30>
+  <JuneTotal>((//td[contains(text()," June total ")])[1]/following-sibling::td/descendant::div)[12]/label/following-sibling::input</JuneTotal>
+  <July07>(//td[contains(text(),"July")])[1]/..//following-sibling::div/div[4]/label/following-sibling::input</July07>
+  <July15>(//tbody/tr/td[contains(text()," July ")])[1]/../following-sibling::tr[1]/td[3]/div/div/div/div/label/following-sibling::input</July15>
+  <July22>(//tbody/tr/td[contains(text()," July ")])[1]/../following-sibling::tr[2]/td[3]/div/div/div/div/label/following-sibling::input</July22>
+  <July31>(//tbody/tr/td[contains(text()," July ")])[1]/../following-sibling::tr[3]/td[3]/div/div/div/div/label/following-sibling::input</July31>
+  <JulyTotal>((//td[contains(text()," July total ")])[1]/following-sibling::td/descendant::div)[12]/label/following-sibling::input</JulyTotal>
+  <Aug07>(//td[contains(text(),"Aug.")])[1]/..//following-sibling::div/div[4]/label/following-sibling::input</Aug07>
+  <Aug15>(//tbody/tr/td[contains(text()," Aug. ")])[1]/../following-sibling::tr[1]/td[3]/div/div/div/div/label/following-sibling::input</Aug15>
+  <Aug22>(//tbody/tr/td[contains(text()," Aug. ")])[1]/../following-sibling::tr[2]/td[3]/div/div/div/div/label/following-sibling::input</Aug22>
+  <Aug31>(//tbody/tr/td[contains(text()," Aug. ")])[1]/../following-sibling::tr[3]/td[3]/div/div/div/div/label/following-sibling::input</Aug31>
+  <AugTotal>((//td[contains(text()," Aug. total ")])[1]/following-sibling::td/descendant::div)[12]/label/following-sibling::input</AugTotal>
+  <Sep07>(//td[contains(text(),"Sep.")])[1]/..//following-sibling::div/div[4]/label/following-sibling::input</Sep07>
+  <Sep15>(//tbody/tr/td[contains(text()," Sep. ")])[1]/../following-sibling::tr[1]/td[3]/div/div/div/div/label/following-sibling::input</Sep15>
+  <Sep22>(//tbody/tr/td[contains(text()," Sep. ")])[1]/../following-sibling::tr[2]/td[3]/div/div/div/div/label/following-sibling::input</Sep22>
+  <Sep31>(//tbody/tr/td[contains(text()," Sep. ")])[1]/../following-sibling::tr[3]/td[3]/div/div/div/div/label/following-sibling::input</Sep31>
+  <SepTotal>((//td[contains(text()," Sep. total ")])[1]/following-sibling::td/descendant::div)[12]/label/following-sibling::input</SepTotal>
+  <Oct07>(//td[contains(text(),"Oct.")])[1]/..//following-sibling::div/div[4]/label/following-sibling::input</Oct07>
+  <Oct15>(//tbody/tr/td[contains(text()," Oct. ")])[1]/../following-sibling::tr[1]/td[3]/div/div/div/div/label/following-sibling::input</Oct15>
+  <Oct22>(//tbody/tr/td[contains(text()," Oct. ")])[1]/../following-sibling::tr[2]/td[3]/div/div/div/div/label/following-sibling::input</Oct22>
+  <Oct31>(//tbody/tr/td[contains(text()," Oct. ")])[1]/../following-sibling::tr[3]/td[3]/div/div/div/div/label/following-sibling::input</Oct31>
+  <OctTotal>((//td[contains(text()," Oct. total ")])[1]/following-sibling::td/descendant::div)[12]/label/following-sibling::input</OctTotal>
+  <Nov07>(//td[contains(text(),"Nov.")])[1]/..//following-sibling::div/div[4]/label/following-sibling::input</Nov07>
+  <Nov15>(//tbody/tr/td[contains(text()," Nov. ")])[1]/../following-sibling::tr[1]/td[3]/div/div/div/div/label/following-sibling::input</Nov15>
+  <Nov22>(//tbody/tr/td[contains(text()," Nov. ")])[1]/../following-sibling::tr[2]/td[3]/div/div/div/div/label/following-sibling::input</Nov22>
+  <Nov30>(//tbody/tr/td[contains(text()," Nov. ")])[1]/../following-sibling::tr[3]/td[3]/div/div/div/div/label/following-sibling::input</Nov30>
+  <NovTotal>((//td[contains(text()," Nov. total ")])[1]/following-sibling::td/descendant::div)[12]/label/following-sibling::input</NovTotal>
+  <Dec07>(//td[contains(text(),"Dec.")])[1]/..//following-sibling::div/div[4]/label/following-sibling::input</Dec07>
+  <Dec15>(//tbody/tr/td[contains(text()," Dec. ")])[1]/../following-sibling::tr[1]/td[3]/div/div/div/div/label/following-sibling::input</Dec15>
+  <Dec22>(//tbody/tr/td[contains(text()," Dec. ")])[1]/../following-sibling::tr[2]/td[3]/div/div/div/div/label/following-sibling::input</Dec22>
+  <Dec31>(//tbody/tr/td[contains(text()," Dec. ")])[1]/../following-sibling::tr[3]/td[3]/div/div/div/div/label/following-sibling::input</Dec31>
+  <DecTotal>((//td[contains(text()," Dec. total ")])[1]/following-sibling::td/descendant::div)[12]/label/following-sibling::input</DecTotal>
+  <Line61Onpaper>//b[text()='a']/parent::em/following-sibling::div/div/div/div/div/input</Line61Onpaper>
+  <Line61Electronically>//em[text()='b']/following-sibling::div/div/div/div/input</Line61Electronically>
+  <Line62>//div[contains(text()," 62 ")]/../div/div/div/div/div/label/following-sibling::input</Line62>
+  <Line62a>//div[contains(text()," 62a ")]/../div/div/div/div/div/label/following-sibling::input</Line62a>
+  <Line62b>//div[contains(text()," 62b ")]/../div/div/div/div/div/label/following-sibling::input</Line62b>
+  <Line62b1>//div[contains(text()," 62b(1)")]/../div/div/div/div/div/label/following-sibling::input</Line62b1>
+  <Line62b2>//div[contains(text(),"62b(2)")]/../div/div/div/div/div/label/following-sibling::input</Line62b2>
+  <Line62c>//div[contains(text(),"62c")]/../div/div/div/div/div/label/following-sibling::input</Line62c>
+  <Line62d>//div[contains(text(),"62d")]/../div/div/div/div/div/label/following-sibling::input</Line62d>
+  <ThirdPartyDesigneeYes>(//div[@class="d-flex flex-wrap"]/div/div/div/div/label)[1]</ThirdPartyDesigneeYes>
+  <ThirdPartyDesigneeNo>//label[contains(text(),"No")]</ThirdPartyDesigneeNo>
+  <DesigneeName>//em[contains(text(),"Designee’s name")]/../following-sibling::div/div/div/div/label/following-sibling::input</DesigneeName>
+  <DesigneePhoneNumber>//em[contains(text(),"Phone no")]/../following-sibling::div/div/div/div/label/following-sibling::input</DesigneePhoneNumber>
+  <PIN1>(//em[contains(text(),"Personal identification number (PIN) ")]/../following-sibling::div/div/div/div/label/following-sibling::input)[1]</PIN1>
+  <PIN2>(//em[contains(text(),"Personal identification number (PIN) ")]/../following-sibling::div/div/div/div/label/following-sibling::input)[2]</PIN2>
+  <PIN3>(//em[contains(text(),"Personal identification number (PIN) ")]/../following-sibling::div/div/div/div/label/following-sibling::input)[3]</PIN3>
+  <PIN4>(//em[contains(text(),"Personal identification number (PIN) ")]/../following-sibling::div/div/div/div/label/following-sibling::input)[4]</PIN4>
+  <PIN5>(//em[contains(text(),"Personal identification number (PIN) ")]/../following-sibling::div/div/div/div/label/following-sibling::input)[5]</PIN5>
+  <SaveandContinue>(//div[contains(@class,"justify-space-between d-flex align-center")]/button)[2]</SaveandContinue>
+  <Line63a>//div[contains(text(),"63a")]/../div/div/div/div/div/label/following-sibling::input</Line63a>
+  <Line63b1>//div[contains(text(),"63b(1)")]/../div/div/div/div/div/label/following-sibling::input</Line63b1>
+  <Line63b2>//div[contains(text(),"63b(2)")]/../div/div/div/div/div/label/following-sibling::input</Line63b2>
+  <Line63c1>//div[contains(text()," 63c(1)")]/../div/div/div/div/div/label/following-sibling::input</Line63c1>
+  <Line63c2>//div[contains(text(),"63c(2)")]/../div/div/div/div/div/label/following-sibling::input</Line63c2>
+  <Line63d>//div[contains(text(),"63d")]/../div/div/div/div/div/label/following-sibling::input</Line63d>
+  <Line63e>//div[contains(text(),"63e")]/../div/div/div/div/div/label/following-sibling::input</Line63e>
+  <Line64a>//div[contains(text(),"64a")]/../div/div/div/div/div/label/following-sibling::input</Line64a>
+  <Line64b>//div[contains(text(),"64b")]/../div/div/div/div/div/label/following-sibling::input</Line64b>
+  <Line64c>//div[contains(text(),"64c")]/../div/div/div/div/div/label/following-sibling::input</Line64c>
+  <Line64d>//div[contains(text(),"64d")]/../div/div/div/div/div/label/following-sibling::input</Line64d>
+  <Line64e>//div[contains(text(),"64e")]/../div/div/div/div/div/label/following-sibling::input</Line64e>
+  <Line65a>//div[contains(text(),"65a")]/../div/div/div/div/div/label/following-sibling::input</Line65a>
+  <Line65b>//div[contains(text(),"65b")]/../div/div/div/div/div/label/following-sibling::input</Line65b>
+  <Line66>//div[contains(text(),"66")]/../div/div/div/div/div/label/following-sibling::input</Line66>
+  <Line67a>//div[contains(text(),"67a")]/../div/div/div/div/div/label/following-sibling::input</Line67a>
+  <Line67b>//div[contains(text(),"67b")]/../div/div/div/div/div/label/following-sibling::input</Line67b>
+  <Line68>//div[contains(text(),"68")]/../div/div/div/div/div/label/following-sibling::input</Line68>
+  <Line69>//div[contains(text(),"69")]/../div/div/div/div/div/label/following-sibling::input</Line69>
+  <Line70a>//div[contains(text(),"70a")]/../div/div/div/div/div/label/following-sibling::input</Line70a>
+  <Line70b>//div[contains(text(),"70b")]/../div/div/div/div/div/label/following-sibling::input</Line70b>
+  <Line71Credit>//label[@class="v-label v-label--clickable" and text()="Credit on 2024 Form 1042"]</Line71Credit>
+  <Line71Refund>//label[@class="v-label v-label--clickable" and text()="Refund"]</Line71Refund>
+  <Sec2-1>(//em[contains(text(),"Total U.S. source FDAP income required to be withheld upon under chapter 4")]/../../../../child::div)[2]/div/div/div/div/div/label/following-sibling::input</Sec2-1>
+  <Sec2-2a>(//div[contains(text(),"2a")]/../div)[2]/div/div/div/div/label/following-sibling::input</Sec2-2a>
+  <Sec2-2b>(//div[contains(text(),"2b")]/../div)[2]/div/div/div/div/label/following-sibling::input</Sec2-2b>
+  <Sec2-2c>(//div[contains(text(),"2c")]/../div)[2]/div/div/div/div/label/following-sibling::input</Sec2-2c>
+  <Sec2-2d>(//div[contains(text(),"2d")]/../div)[2]/div/div/div/div/label/following-sibling::input</Sec2-2d>
+  <Sec2-2e>(//div[contains(text(),"2e")]/../div)[2]/div/div/div/div/label/following-sibling::input</Sec2-2e>
+  <Sec2-3>(//div[contains(text()," 3 ")]/../div)[2]/div/div/div/div/label/following-sibling::input</Sec2-3>
+  <Sec2-4>(//div[contains(text()," 4 ")]/../div)[2]/div/div/div/div/label/following-sibling::input</Sec2-4>
+  <Sec2-5>(//div[contains(text()," 5 ")]/../div)[2]/div/div/div/div/label/following-sibling::input</Sec2-5>
+  <Sec3-871m>//em[contains(text(),"Check here if any payments (including gross proceeds)")]/preceding-sibling::div/div/div/div/div/div/i/following-sibling::input</Sec3-871m>
+  <Sec4-QDD>//em[contains(text(),"Check here if any payments were")]/../../preceding-sibling::div/div/div/div/div/div/input</Sec4-QDD>
+  <Sec4-1>//a[contains(text(),"Schedule(s) Q (Form 1042) ")]</Sec4-1>
+  <Sec4-2EIN>//em[contains(text(),"(2) Enter your EIN (other than your QI-EIN)")]/../following-sibling::div/div/div/div/div/label/following-sibling::input</Sec4-2EIN>
+  <CompleteFiling>//span[contains(text(),"Complete Filing")]</CompleteFiling>
+</OR>
